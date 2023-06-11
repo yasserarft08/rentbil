@@ -16,6 +16,7 @@ class Register extends CI_Controller
         $this->load->model('user_model');
 
         $nama = $this->input->post('nama');
+        
         $email = $this->input->post('email');
         $password = md5($this->input->post('password'));
         $alamat = $this->input->post('alamat');
