@@ -13,7 +13,8 @@
                 <div class="card-wrap">
                   <div class="card-header">
                     <h4>Total Mobil</h4>
-                  </div>
+                  </div> 
+                  
                   <div class="card-body">
                     <?php $count = 0;
                     foreach ($mobil as $total) : ?>
