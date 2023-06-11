@@ -7,6 +7,7 @@ class mobil_model extends CI_Model
         $query = $this->db->get($table);
         return $query;
     }
+    
 
     public function get_data_type()
     {
